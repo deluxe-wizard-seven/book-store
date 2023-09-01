@@ -12,7 +12,7 @@ const app = express();
 
 // Adding middlewares
 app.use(cors({
-    origin: "http://localhost:3000",
+    origin: "http://localhost:5173",
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     allowedHeaders: ["Content-Type"],
 }));
